@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sanjeevni</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Inter:wght@600&family=Lora:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="webpages/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="webpages/images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- top navigataion bar -->
+        <div class="banner">
+            <div class="navbar navbar-expand-lg navbar-expand-md">
+                <div class="container-fluid">
+                    <div class="navbar-brand">
+                        <img id="logo" src="webpages/images/Ayurveda-Transparent-PNG.png" alt="Sanjeevni" width="5%">
+                        <img id="brand-name" src="webpages/images/sanjeevni.png" alt="Sanjeevni" width="20%">
+                    </div>
+
+                    <div id="navbarSupportedContent">
+                        <ul class="phone text4 navbar-nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link font-size1" href="webpages/feedback_form.html">Feedback</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-size1" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-size1" href="#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-size1" href="#disclaimer">Disclaimer</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--  search box and main banner -->
+            <div class="main-block" style="text-align: center;padding: 8%;">
+                <div>
+                    <h1>Remedy at your fingertips</h1>
+                </div>
+            </div>
+            <div class="main-block">
+                <div class="input-group">
+                    <input list="search" id="sanjeevni-search" type="search" class="form-control text1 search-box rounded" placeholder="Search by Disease Name" aria-label="Search" aria-describedby="search-addon"/>
+                    <datalist id="search">
+
+                        <option value="Dengue">Dengue</option>
+                        <option value="Cold">Cold</option>
+                        <option value="Diabetes">Diabetes</option>
+                        <option value="Osteoarthritis">Osteoarthritis</option>
+                        <option value="Migraine">Migraine</option>
+                        <option value="Sinusitis">Sinusitis</option>
+                        <option value="High-Cholestrol">High-Cholestrol</option>
+                        <option value="Constipation">Constipation</option>
+                        <option value="Anemia">Anemia</option>
+                        <option value="Typhoid">Typhoid</option>
+                    </datalist>
+                </div>
+
+                <button type="button" class="btn text3 btn-outline-primary" onclick="search()">
+                    <a id="disease_search">search</a>
+                </button>
+                <div>
+                    <a href="index2.html">click to search by Symptoms</a>
+                </div>
+            </div>
+        </div>
+        <hr style="margin-top: 12%;">
+        <div style="text-align: center;">
+            <div id="about">
+                <h1>About Our Website</h1>
+            </div>
+            <div style="padding: 5%;">
+                <b>Welcome to our website, where you can find natural and effective home remedies and ayurvedic remedies for a wide range of health conditions. we have compiled a comprehensive list of remedies using ingredients that can be easily found in the home or locally sourced. Whether you are looking to treat a common ailment such as a cold or cough, or a more chronic condition such as arthritis or diabetes, we have a remedy that can help.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        In addition to home remedies, we also offer a range of ayurvedic remedies that have been used for centuries in the traditional healthcare system of India. These remedies are based on the principles of ayurveda, which believes that good health is achieved by maintaining a balance between the body, mind, and spirit. Our ayurvedic remedies are made using natural ingredients and are designed to promote overall health and well-being.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        So if you are looking for natural and effective remedies to improve your health and well-being, look no further. Browse our extensive list of remedies and find the one that is right for you.</b>
+            </div>
+            <hr>
+            <div>
+                <h2>The Great India</h2>
+            </div>
+            <div class="about">
+                <div class="desc"><img class=" main-page-pic" src="webpages/images/india.jpg"></div>
+                <div class="desc" style="padding: 5%;">
+                    <b>India is the birthplace of both yoga and ayurveda, and has a deep and longstanding tradition of these practices. Yoga, which originated in India over 5,000 years ago, is a holistic discipline that combines physical postures, breathing techniques, and meditation to improve overall health and well-being. Ayurveda, on the other hand, is a traditional system of medicine that is based on the belief that good health is achieved by maintaining a balance between the body, mind, and spirit. Both practices have been integrated into Indian culture for thousands of years and are widely practiced throughout the country. In recent years, there has been a resurgence of interest in both yoga and ayurveda around the world, with many people turning to these ancient practices as a natural way to promote health and well-being.</b>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>Ayurved</h2>
+            </div>
+            <div class="about2">
+                <div class="desc" style="padding: 5%;">
+                    <b>
+                        Maharishi Patanjali is widely recognized as the founder of the yoga tradition in India. He is credited with codifying the principles and practices of yoga in the Yoga Sutras, a collection of 196 aphorisms that outline the path to spiritual enlightenment through the practice of yoga. The Yoga Sutras are considered one of the foundational texts of yoga and are still studied and practiced by yoga practitioners around the world today. Maharishi Patanjali is also credited with writing the first comprehensive text on the grammar of the Sanskrit language, known as the Ashtadhyayi. He is revered as a revered scholar and sage in India and his contributions to yoga and Sanskrit grammar continue to be celebrated and studied to this day.</b>
+                </div>
+                <div class="desc">
+                    <img class=" main-page-pic" src="webpages/images/patanjali.jpg" height="500" width="500" style="float: right;padding-left: 5%;">
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>Yoga</h2>
+            </div>
+            <div class="about">
+                <div class="desc">
+                    <img src="webpages/images/yoga.jpg" class=" main-page-pic" height="500" width="500">
+
+                </div>
+                <div class="desc" style="padding: 5%;">
+                    <b>Yoga is an integral part of the healthcare system in India, with many people turning to this ancient practice as a natural way to promote health and well-being. The physical postures, or asanas, in yoga are believed to improve flexibility, strength, and balance, as well as reduce stress and improve overall physical and mental health. In addition, the breathing techniques, or pranayama, and meditation practices taught in yoga are believed to help calm the mind and promote relaxation and inner peace. In India, yoga is practiced by people of all ages and fitness levels and is often incorporated into daily routines as a way to improve overall health and well-being. Many people in India also turn to yoga as a complementary therapy to treat a wide range of conditions, including stress, anxiety, and chronic pain.</b>
+                </div>
+            </div>
+            <hr><div>
+                <h2>Home Remedies</h2>
+            </div>
+            <div class="about2">
+                <div class="desc" style="padding: 5%;">
+                    <b>
+                        In India, home remedies have long been an integral part of the country's traditional healthcare system. These remedies, which often use natural ingredients found in the home or locally available, are believed to be effective in treating a wide range of conditions and illnesses. Some common home remedies in India include the use of turmeric, ginger, and honey to treat colds and coughs; the use of fenugreek seeds to lower cholesterol; and the use of coconut oil to nourish and condition the hair. Other popular home remedies in India include the use of neem, a bitter herb, to treat skin conditions and boost the immune system; and the use of garlic to lower blood pressure and boost heart health. While home remedies are not a substitute for medical treatment, they are often used alongside conventional medicine as a natural way to promote healing and overall health and well-being.</b>
+                </div>
+                <div class="desc">
+                    <img class=" main-page-pic" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781510762268/1-001-home-remedies-9781510762268_lg.jpg" height="500" width="500" style="float: right;padding-left: 5%;">
+                </div>
+
+            </div>
+        </div>
+        <div style="text-align: center; padding-bottom: 5px;">
+            <h1 id="team">Meet The Team</h1>
+        </div>
+        <div class="cards-main">
+            <div class="card">
+                <img src="webpages/images/IMG-20230115-WA0028.jpg" alt="Archit" style="width:100%">
+                <h1>Archit
+                    <br>Shukla</h1>
+                <p class="title">Btech Student(2025 batch)
+                </p>
+                <p>Ajay Kumar Garg Engineering College</p>
+                <div style="margin: 24px 0;">
+                    <a class="card-link" href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a class="card-link" href="#">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="card-link" href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="card-link" href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+
+
+                </div>
+                <p>
+                    <button class="cards">Contact</button>
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://media.licdn.com/dms/image/D4D03AQEuNaq2mNbnQw/profile-displayphoto-shrink_800_800/0/1672578142756?e=2147483647&v=beta&t=4f6lun_VI8mhIbbMHnV8vDPXEOTNIzfktrP0bs-oi5M" alt="John" style="width:100%">
+                <h1>Divyanshi
+                    <br>
+                    Srivastava</h1>
+                <p class="title">Btech Student(2025 batch)</p>
+                <p>Ajay Kumar Garg Engineering College</p>
+                <div style="margin: 24px 0;">
+                    <a class="card-link" href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a class="card-link" href="#">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a class="card-link" href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="card-link" href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <p>
+                    <button class="cards">Contact</button>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div id="disclaimer" style="text-align: center;">
+            <h1 style="text-decoration: underline;">
+                Disclaimer
+            </h1>
+            <div style="text-align: center;">
+                <b style="width: 80%;">"The information provided on this website is compiled from various sources. While we strive to ensure the accuracy and reliability of the information, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. We cannot guarantee that the information on this website is free from errors or omissions and accept no liability for any inaccuracies or errors to the fullest extent permitted by law."</b>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="function.js"></script>
+    </body>
+</html>

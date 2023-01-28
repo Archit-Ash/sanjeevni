@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Yatra One', cursive;
+            line-height: 1;
+        }
+        body {
+
+            border-radius: 5px;
+            background-color: #cefdd7;
+            padding: 20px;
+        }
+        .form {
+            width: 40%;
+        }
+
+        .container {
+            display: block;
+
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .headline {
+            display: block;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 16px;
+            letter-spacing: 5px;
+            position: relative;
+        }
+        input[type=text],
+        select {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1px solid #ccc;
+            padding: 5px 0;
+            font-size: 16px;
+            color: #000;
+            outline: none;
+            position: relative;
+            z-index: 2;
+            background-color: transparent;
+            transition: 0.3s all ease;
+            width: 100%;
+
+        }
+        input[type=text]:focus {
+            border-bottom-color: #2f4231;
+        }
+
+        input[type=submit] {
+            width: 80%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=reset] {
+            width: 80%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
+    <body>
+        <div class="container">
+
+            <img id="brand-name" src="sanjeevni.png" alt="Sanjeevni" width="20%">
+        </div>
+        <div class="container">
+            <div class="headline">
+                <span>
+                    Your Feedback Is Valuable To Us
+                </span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form">
+                <form action="mailto:archit2110141@akgec.ac.in" method="post" enctype="text/plain">
+                    Name:
+                    <input type="text" placeholder="Archit Shukla" name="name"><br>
+                    E-mail:
+                    <input type="text" placeholder="archit2110141@akgec.ac.in" name="mail"><br>
+                    Feedback
+                    <input type="text" name="Feedback"><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </body>
+</html></body></html></div></body></html>

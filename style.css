@@ -1,0 +1,192 @@
+*
+{
+  scroll-behavior: smooth;
+}
+body 
+{
+    background-color: #e5f9ec;
+    /* background-image: linear-gradient(270deg, #85FFBD 0%, #FFFB7D 100%);
+      */
+      background-image: url("webpages/images/banner.jpg");
+      background-repeat: no-repeat;
+}
+@media only screen and (max-width:600px) {
+  html
+  {
+    font-size: 10px;
+  }
+  .desc
+  {
+    display: inline !important; 
+  }
+  .about2 , .about{
+    display: grid;
+  }
+  .main-page-pic
+  {
+      border-radius: 100%;
+      padding: 5%;
+      max-height:150px !important;
+      max-width: 150px !important;
+  }
+    .banner
+    {
+        text-align: center;
+
+    }
+    .desc{
+      display: block;
+    }
+    .card{
+        width: 40% !important;
+        height: auto;
+    }
+.phone
+{
+    display: none;
+}
+#brand-name
+{
+width: 50%;
+}
+#logo
+{
+width: 10%;
+}
+.navbar-brand
+{
+    text-align: center;
+}
+.btn{
+    font-size: 10px !important;
+}
+}
+.text1
+{
+    font-family: 'Barlow', sans-serif;
+    
+   
+}
+.font-size1
+{
+    font-size: 30px;
+}
+.text2
+{
+    font-family: 'Inter', sans-serif;
+}
+.text3
+{
+    font-family: 'Lora', serif;
+}
+.text4
+{
+    font-family: 'Yatra One', cursive;
+
+}
+.main-block
+{
+    text-align: center;
+    color: rgb(255, 81, 0);
+    font-family: 'Yatra One', cursive ;
+}
+.search-box
+{
+    max-width: 50%;
+    margin: auto;
+}
+.nav-link
+{
+    margin-left: 15px;
+    color:  rgb(255, 81, 0);
+    
+}
+  .btn{
+    background-color: #09e559;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius:15px;
+  }
+  
+  .btn:hover {opacity: 25}
+.about
+{
+    display: flex;
+}
+.about2
+{
+    display: flex;
+}
+.main-page-pic
+{
+    border-radius: 100%;
+    padding: 5%;
+    max-height: 500px;
+    max-width: 500px;
+}
+.desc
+{
+    display: inline-block;
+    align-self: center;
+}
+.about
+{
+    padding: 5%;
+}
+.about2{
+    padding: 5%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 20%;
+  
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.cards {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(65, 249, 4);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-link {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(5, 247, 13);
+}
+
+.cards:hover, .card-link:hover {
+  opacity: 0.7;
+}
+.cards-main
+{
+    display: flex;
+    justify-content: space-evenly ;
+}
+div> img
+{
+  width: 500;
+  height: 500;
+}
